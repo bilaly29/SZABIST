@@ -16,7 +16,7 @@
 </div>
  <div style="background-color: grey; padding: 40px 0; overflow: auto;">
 
-<!-- left box -->
+
 
  <div style = "background-color: peachpuff; padding: 50px; float: left;width: 25%;">
    <h2 style = "color: black;">
@@ -25,7 +25,7 @@
 
  </div>
  
-<!-- Middle Box -->
+
  <div style ="background-color: lightgreen; padding: 20px; float: left;width: 35%;">
   <h2 style = "color: black;">
     <i>Center column</i>
@@ -33,7 +33,7 @@
   </h2>
  </div>
 
-<!-- Right box -->
+
 <div style = "background-color: lavender;padding: 20px; float:right;width: 25%;">
 <h2 style = "color: black;">
     <i>Right column</i>
