@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title><i>Table Method</i></title>
+</head>
+
+<body style = "font-family: Arial;"></body>
+
+<table width = "100%">
+ <tr>
+   
+   <td style="background-color: black; padding: 45px;">
+     <h1 style = "color: white;" > 
+        <i>Introduction</i>
+        
+     </h1>
+     <p style = "color: white;"><i>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</i></p>
+
+   </td>
+ </tr>
+
+</table>
+
+<table width="100%" style="background-color: #d3d3d3; padding: 20px;">
+    <tr>
+      
+      <td style="background-color: peachpuff; padding: 45px; width: 33%; vertical-align: top;">
+        <h1 style="color: black;"><i>Left column</i></h1>
+        <p><i>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</i></p>
+      </td>
+
+      <td style="background-color: lightgreen; padding: 45px; width: 33%; vertical-align: top;">
+        <h1 style="color: black;"><i>Middle Column</i></h1>
+        <p><i>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</i></p>
+      </td>
+
+      <td style="background-color: lavender; padding: 45px; width: 33%; vertical-align: top;">
+        <h1 style="color: black;"><i>Right column</i></h1>
+        <p><i>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</i></p>
+      </td>
+
+
+
+
+</body>
+</html>
