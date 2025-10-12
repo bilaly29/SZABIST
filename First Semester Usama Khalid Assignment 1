@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+   <title> Assignment Div </title>
+</head>
+
+<body style="font-family: sans-serif;">
+
+<div style = "background-color: black; padding: 50px;">
+
+<h1 style = "color: white;">
+ <i>Introduction</i> </h1>
+<p style = "color: white;">
+  <i>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</i>
+</p>
+</div>
+ <div style="background-color: grey; padding: 40px 0; overflow: auto;">
+
+<!-- left box -->
+
+ <div style = "background-color: peachpuff; padding: 50px; float: left;width: 25%;">
+   <h2 style = "color: black;">
+    <i>Left column</i> </h2>
+    <p>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</p>
+
+ </div>
+ 
+<!-- Middle Box -->
+ <div style ="background-color: lightgreen; padding: 20px; float: left;width: 35%;">
+  <h2 style = "color: black;">
+    <i>Center column</i>
+    <p> These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</p>
+  </h2>
+ </div>
+
+<!-- Right box -->
+<div style = "background-color: lavender;padding: 20px; float:right;width: 25%;">
+<h2 style = "color: black;">
+    <i>Right column</i>
+
+<p>These are just some words to fill a div element, so that its layout becomes real and not abstract anymore.</p>
+</h2>
+</div>
+<div style="clear: both; background-color: grey; height: 10px; margin-top: 40px;"></div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
