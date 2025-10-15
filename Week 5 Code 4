@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+    int count, n=1, inc=2;
+
+    for(count=1; count <= 9; count++){
+        printf("%d\n", n);
+        n+=inc;
+        if(n == 9){
+            inc=-2; 
+        }
+        
+    }
+    return 0;
