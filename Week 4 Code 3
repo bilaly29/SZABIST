@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main(void) {
+    int num, div=2;
+
+    // printf("Enter any number : ");
+    // scanf("%d", &num);    
+
+
+    for(int n=2; n<=100; n++){
+        num = n;
+        div = 2;
+        printf("%3d : ", num);
+        while (num != 1)
+        {
+            if(num % div == 0){
+                num /= div;
+                printf("%d ", div); 
+            }else{
+                div++;
+            }
+        }  
+        puts("");     
+    }
+
+}
+
+/*
+2 - 100
+2: 2
+3: 3
+4: 2 2
+5: 5
+.
+.
+.
+100
+*/
