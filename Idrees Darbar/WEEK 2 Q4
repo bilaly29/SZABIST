@@ -1,0 +1,30 @@
+#define _USE_MATH_DEFINE_
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+
+// Area and cirfumference of a circle
+
+float radius;
+float area;
+float circumference;
+
+
+printf("Enter the radius of the circle: \n");
+scanf("%f",&radius);
+
+area = M_PI * pow(radius,2);
+
+circumference = 2 * M_PI * radius;
+
+puts(" ");
+printf("Area of circle: %.2f\n",area);
+printf("Circumference of circle: %.2f\n",circumference);
+
+
+
+
+return 0;
+}
