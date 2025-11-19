@@ -1,0 +1,36 @@
+#define _USE_MATH_DEFINE_
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+
+// Swap without using temp variable: 
+
+ int a = 10, b = 5;
+
+/*printf("Enter value a to swap: \n");
+  scanf("%d",&a);
+  printf("Enter value b to swap: \n");
+  scanf("%d",&b);
+*/
+
+a = a + b;
+b =  a - b;
+a = a - b;
+
+printf("----- SWAPPED VALUES -----\n");
+puts(" ");
+printf("Value of a: %d\n",a);
+
+printf("Value of b: %d",b);
+
+
+
+    return 0;
+}
+
+
+
+return 0;
+}
