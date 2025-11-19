@@ -1,0 +1,30 @@
+#define _USE_MATH_DEFINE_
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+
+int value;
+int a,b,c,d,e;
+int sum;
+
+
+printf("Enter a five digit number: \n");
+scanf("%d",&value);
+
+a = (value / 10000) % 10;
+b = (value / 1000) % 10;
+c = (value / 100) % 10;
+d = (value / 10 ) % 10;
+e = (value % 10);
+
+sum = a + b + c + d + e;
+
+printf("Individual values: %d %d %d %d %d \n",a,b,c,d,e);
+printf("Sum of these invdividual numbers: %d\n",sum);
+
+
+
+return 0;
+}
