@@ -1,0 +1,26 @@
+#define _USE_MATH_DEFINE_
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+
+// Interchange operands of two valuea a and b:
+
+int a = 15,b = 100;
+int temp = 0;
+
+/*printf("Enter a number for value a: \n");
+scanf("%d",&a);
+printf("Enter a number for value b: \n");
+scanf("%d",&b); */
+
+temp = a;
+a = b;
+b = temp;
+
+printf("------INTERCHANGED VALUES------");
+puts(" ");
+
+printf("Value of a: %d \n",a);
+printf("Value of b: %d ",b);
